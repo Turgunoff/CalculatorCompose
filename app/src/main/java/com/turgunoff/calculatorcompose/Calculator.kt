@@ -220,7 +220,7 @@ fun Calculator(
                     onClick = { onAction(CalculatorAction.Decimal) }
                 )
                 CalculatorButton(
-                    symbol = "*",
+                    symbol = "=",
                     modifier = Modifier
                         .background(Orange)
                         .aspectRatio(1f)
